@@ -40,7 +40,7 @@ function App() {
   return (
    <>
     {/* <Router> */}
-   <Navbar title = "TextUtils" mode={mode} toggleMode={toggleMode} aboutText = "About TextUtils"/>
+   <Navbar title = "TextUtils Application" mode={mode} toggleMode={toggleMode} aboutText = "About TextUtils"/>
    
    <strong><Alert alert={alert} /> </strong>
    <div className="container my-3">
@@ -50,7 +50,7 @@ function App() {
             <About />
           </Route>
           <Route exact path="/"> */}
-          <TextForm heading="Enter the text to analyze" mode={mode} showalert={showAlert}/>
+          <TextForm heading="Enter your text in the Box" mode={mode} showalert={showAlert}/>
           {/* </Route>
         </Switch> */}
        </div>
